@@ -22,6 +22,7 @@ var destructivelyRemoveFirstKitten = (val) => {
 }
 
 var appendKitten = (val) => {
+  //var newArray = [...kittens, val]
   var newArray = [...kittens]// duplacated the orginal array 
   newArray.push(val)
   return newArray

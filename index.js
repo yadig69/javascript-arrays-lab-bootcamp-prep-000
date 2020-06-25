@@ -39,7 +39,7 @@ var removeFirstKitten = (val) => {
   return newArray
 }
 
-var prependKitten = (val) => {
+var removeFirstKitten = (val) => {
   var newArray = [...kittens]// duplacated the orginal array 
   newArray.unshift(val)
   return newArray

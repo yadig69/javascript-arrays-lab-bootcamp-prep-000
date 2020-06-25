@@ -33,14 +33,14 @@ var prependKitten = (val) => {
   return newArray
 }
 
-var removeFirstKitten = (val) => {
+var removeLastKitten = (val) => {
   var newArray = [...kittens]// duplacated the orginal array 
-  newArray.push(val)
+  newArray.pop(val)
   return newArray
 }
 
 var removeFirstKitten = (val) => {
   var newArray = [...kittens]// duplacated the orginal array 
-  newArray.unshift(val)
+  newArray.shift(val)
   return newArray
 }
